@@ -1,37 +1,84 @@
-![CI](https://github.com/your-username/HEA_Shuffler/actions/workflows/ci.yml/badge.svg)
-![CI](https://github.com/ndandu/HEA_Shuffler/actions/workflows/ci.yml/badge.svg)
+# HEA_Shuffler 🧪🔀
+
 [![CI](https://github.com/ndandu/HEA_Shuffler/actions/workflows/ci.yml/badge.svg)](https://github.com/ndandu/HEA_Shuffler/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 
-# HEA_Shuffler
+## Overview
 
-**HEA_Shuffler** is a brute-force Monte Carlo atom substitution tool tailored for High-Entropy Alloy (HEA) simulations. It performs randomized substitution of atomic sites within a crystal structure and ranks configurations based on Short-Range Order (SRO) scoring.
+**HEA_Shuffler** is a robust and flexible Monte Carlo-based tool designed for atom substitution in VASP POSCAR files. It supports multielement randomization (e.g., high-entropy alloys or SQS-like configurations) and evaluates short-range ordering (SRO) for each trial.
 
-## Features
-- User-defined host and substituting atoms
-- Random sampling via Monte Carlo
-- SRO scoring using Voronoi nearest-neighbor method
-- POSCAR outputs sorted by atomic species for VASP compatibility
+Inspired by SQS but using brute-force Monte Carlo, it's ideal for:
+- Alloy structure generation
+- Entropic sampling of substitution patterns
+- VASP input automation
+- High-throughput material discovery
 
-## Quick Start
+## 🚀 Features
+
+- Interactive CLI for atom substitutions
+- Monte Carlo trial sampling
+- SRO scoring of each structure
+- Auto-naming and sorting of output POSCARs
+- VASP-compatible atom ordering
+- Optional visualization of substitution sites
+
+## 🧰 Requirements
 
 ```bash
-cd scripts
-python HEA_Shuffler.py
+pip install -r requirements.txt
 ```
 
-## Example
+Or install individually:
+
+```bash
+pip install pymatgen matplotlib
+```
+
+## 🧪 Example Usage
+
+```bash
+python brute-montecarlo-substitutor.py
+```
+
+Then follow prompts like:
 
 ```text
-Enter the name of your POSCAR file (e.g., POSCAR): ../examples/POSCAR
+Enter the name of your POSCAR file (e.g., POSCAR): POSCAR
 Which atom do you want to substitute (e.g., Co)? Co
 How many atoms do you want to substitute? [1 <= n <= 12] 8
-Enter the substituting atom(s), separated by spaces (e.g., Mn Fe): Mn Fe
+Enter the substituting atom(s), separated by spaces (e.g., Mn Ni): Mn Fe
 How many Monte Carlo trials to attempt? 10
 ```
 
-## Outputs
-- `POSCAR_trial_*.vasp`: Each configuration generated during sampling
-- SRO Score printed for each trial
+Each structure will be saved as `POSCAR_trial_N.vasp` with SRO scores printed in summary.
 
-## License
-MIT License
+## 📁 Project Structure
+
+```
+HEA_Shuffler/
+│
+├── brute-montecarlo-substitutor.py  # Main script
+├── POSCAR                          # Example input structure
+├── requirements.txt               # Python dependencies
+├── LICENSE
+├── README.md
+└── .github/workflows/ci.yml       # Optional GitHub Action
+```
+
+## 🧪 Tests
+
+Test scripts and validation samples coming soon in `/tests`.
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 🧠 Citation / Credit
+
+If you use this in your work, please cite this repo or credit the authors.
+
+---
+
+**Developed by:** [@ndandu](https://github.com/ndandu)  
+High-Entropy Alloy Materials Discovery · 2025
