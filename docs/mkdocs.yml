@@ -1,0 +1,6 @@
+site_name: HEA_Shuffler
+theme:
+  name: material
+nav:
+  - Home: index.md
+
