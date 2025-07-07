@@ -1,9 +1,8 @@
 # HEA_Shuffler 🧪🔀
 
-[![Docs](https://img.shields.io/badge/docs-mkdocs-blue)](https://github.com/naveen-dandu.github.io/HEA_Shuffler/)
+[![Docs](https://img.shields.io/badge/docs-mkdocs-blue)](https://github.com/naveen-dandu/HEA_Shuffler/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
-[![CI](https://github.com/<your-github-username>/HEA_Shuffler/actions/workflows/ci.yml/badge.svg)](https://github.com/naveen-dandu/HEA_Shuffler/actions)
 
 ## Overview
 
