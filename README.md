@@ -74,6 +74,14 @@ Test scripts and validation samples coming soon in /tests.
 📜 License
 This project is licensed under the MIT License.
 
+---
+
+## ✅ Zenodo DOI
+
+[![DOI](https://zenodo.org/badge/1015094671.svg)](https://doi.org/10.5281/zenodo.15829507)
+
+---
+
 🧠 Citation / Computational Details
 If you use this tool in a publication, please cite this GitHub repository:
 
