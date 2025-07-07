@@ -93,7 +93,4 @@ This script was used to substitute atoms in VASP POSCAR structures through Monte
 Developed by: @ndandu
 High-Entropy Alloy Materials Discovery · 2025
 
-yaml
-Copy
-Edit
 
