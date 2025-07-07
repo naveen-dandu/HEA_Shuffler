@@ -1,0 +1,13 @@
+name: hea_shuffler_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pymatgen
+  - numpy
+  - matplotlib
+  - tqdm
+  - spglib
+  - pip
+  - pip:
+      - ase
