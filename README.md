@@ -1,5 +1,60 @@
 # HEA_Shuffler 🧪🔀
 
+[![Docs](https://img.shields.io/badge/docs-mkdocs-blue)](https://<your-github-username>.github.io/HEA_Shuffler/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
+[![CI](https://github.com/<your-github-username>/HEA_Shuffler/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-github-username>/HEA_Shuffler/actions)
+
+## Overview
+
+**HEA_Shuffler** is a robust and flexible Monte Carlo-based tool designed for atom substitution in VASP POSCAR files. It supports multielement randomization (e.g., high-entropy alloys or SQS-like configurations) and evaluates short-range ordering (SRO) for each trial.
+
+Inspired by SQS but using brute-force Monte Carlo, it's ideal for:
+- Alloy structure generation
+- Entropic sampling of substitution patterns
+- VASP input automation
+- High-throughput material discovery
+
+## 🚀 Features
+
+- Interactive CLI for atom substitutions
+- Monte Carlo trial sampling
+- SRO scoring of each structure
+- Auto-naming and sorting of output POSCARs
+- VASP-compatible atom ordering
+- Optional visualization of substitution sites
+
+## 🔧 Installation
+
+Use the provided `environment.yml` file to create and activate the environment:
+
+```bash
+conda env create -f environment.yml
+conda activate hea_shuffler
+```
+[or]
+```bash
+pip install pymatgen matplotlib
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# HEA_Shuffler 🧪🔀
+
 [![Documentation Status](https://img.shields.io/badge/docs-GitHub--Pages-blue)](https://<your-username>.github.io/HEA_Shuffler/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
