@@ -85,7 +85,7 @@ This project is licensed under the MIT License.
 🧠 Citation / Computational Details
 If you use this tool in a publication, please cite this GitHub repository:
 
-Dandu, N. HEA_Shuffler: A Monte Carlo-based configurational substitution tool for alloy generation and SRO scoring, GitHub Repository, 2025. https://github.com/naveen-dandu/HEA_Shuffler
+Dandu, N. K. and Ngo, A. T. HEA_Shuffler: A Monte Carlo-based configurational substitution tool for alloy generation and SRO scoring, GitHub Repository, 2025. https://github.com/naveen-dandu/HEA_Shuffler
 
 Computational Usage:
 This script was used to substitute atoms in VASP POSCAR structures through Monte Carlo sampling. Each trial generates a new configuration, scores short-range order (SRO), and exports sorted POSCAR_trial_N.vasp files. This enables generation of realistic high-entropy alloy or pseudo-SQS structures for DFT or machine learning workflows.
