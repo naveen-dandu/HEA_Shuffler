@@ -1,3 +1,7 @@
+![CI](https://github.com/your-username/HEA_Shuffler/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/ndandu/HEA_Shuffler/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/ndandu/HEA_Shuffler/actions/workflows/ci.yml/badge.svg)](https://github.com/ndandu/HEA_Shuffler/actions)
+
 # HEA_Shuffler
 
 **HEA_Shuffler** is a brute-force Monte Carlo atom substitution tool tailored for High-Entropy Alloy (HEA) simulations. It performs randomized substitution of atomic sites within a crystal structure and ranks configurations based on Short-Range Order (SRO) scoring.
