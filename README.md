@@ -1,5 +1,6 @@
 # HEA_Shuffler 🧪🔀
 
+[![Documentation Status](https://img.shields.io/badge/docs-GitHub--Pages-blue)](https://<your-username>.github.io/HEA_Shuffler/)
 [![CI](https://github.com/ndandu/HEA_Shuffler/actions/workflows/ci.yml/badge.svg)](https://github.com/ndandu/HEA_Shuffler/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
